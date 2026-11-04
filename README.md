@@ -14,6 +14,23 @@
 
 This repository is the **public developer hub**. It does not contain the bot program. Live docs, the website, and the bot are linked above.
 
+## Services by the words people search
+
+| Search | Service |
+| --- | --- |
+| freefire redeem, free fire redeem, شحن فري فاير | [Free Fire redeem](./docs/freefire-redeem.md) |
+| فري فاير تشيكر, free fire checker, فحص كود فري فاير | [Free Fire checker](./docs/freefire-checker.md) |
+| pubg uc redeem, pubg redeem, شحن شدات ببجي | [PUBG UC redeem](./docs/pubg-uc-redeem.md) |
+| pubg uc checker, فحص كود ببجي | [PUBG UC checker](./docs/pubg-uc-checker.md) |
+| razer gold redeem, razer gold checker, شحن ريزر, ريزر تشيكر | [Razer Gold](./docs/razer-gold.md) |
+| itunes checker, apple checker, ايتونز تشيكر, ابل تشيكر | [iTunes and Apple checker](./docs/itunes-checker.md) |
+| yalla ludo redeem, شحن يلا لودو | [Yalla Ludo](./docs/yalla-ludo.md) |
+| jawaker redeem, شحن جواكر | [Jawaker](./docs/jawaker.md) |
+| player id lookup, فحص ايدي | [Player lookup](./docs/player-lookup.md) |
+| stock redeem, شحن من المخزون | [Stock](./docs/stock-redeem.md) |
+
+Full phrase list: [docs/SEARCH.md](./docs/SEARCH.md). The same pages are on GitHub Pages under [services](https://aliothman123.github.io/zadtop-api/services.html) and [بالعربية](https://aliothman123.github.io/zadtop-api/ar.html).
+
 ---
 
 ## What you can do
@@ -126,7 +143,7 @@ Pay in USDT on TRC20, BEP20, TON, or Aptos.
 
 ## Search terms
 
-Free Fire redeem bot, Free Fire code checker, Garena voucher API, PUBG UC redeem API, PUBG UC code checker, Midasbuy-style UC API, Yalla Ludo diamonds redeem, Yalla Ludo gold redeem, Jawaker tokens API, iTunes gift card balance checker, Razer Gold PIN checker, Razer Gold recharge, Telegram reseller bot, ZadTopBot, zadtop.com.
+freefire redeem, free fire redeem, free fire redeem api, free fire checker, freefire checker, فري فاير تشيكر, شحن فري فاير, فحص كود فري فاير, pubg uc redeem, pubg redeem, pubg mobile uc api, شحن شدات ببجي, شحن ببجي, فحص كود ببجي, razer gold redeem, razer gold checker, razer gold pin checker, razer gold recharge, شحن ريزر جولد, فحص كود ريزر, ريزر تشيكر, itunes checker, itunes gift card checker, apple checker, apple gift card checker, ايتونز تشيكر, آيتونز تشيكر, ابل تشيكر, آبل تشيكر, فحص بطاقة ايتونز, فحص بطاقة آبل, yalla ludo redeem, yalla ludo diamonds, yalla ludo gold, شحن يلا لودو, jawaker redeem, شحن جواكر, player id lookup, stock redeem, ZadTopBot, zadtop.com.
 
 ---
 

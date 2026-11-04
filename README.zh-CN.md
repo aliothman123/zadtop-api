@@ -10,4 +10,4 @@
 
 Razer Gold PIN 检查不会消耗 PIN，每个 PIN 5 个请求。充进自己的钱包时不保存密码。不要把 Ludo 金币卡密发到钻石检查，它可能被消耗。
 
-搜索：Free Fire 兑换机器人、PUBG UC API、Yalla Ludo 钻石、Jawaker 代币、iTunes 余额、Razer Gold PIN、ZadTopBot。
+搜索：freefire redeem、free fire checker、自由之火充值、pubg uc redeem、绝地求生 UC、razer gold redeem、razer gold checker、雷蛇金、itunes checker、apple checker、iTunes 查卡、yalla ludo、jawaker、ZadTopBot。

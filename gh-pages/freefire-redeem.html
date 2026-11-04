@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Free Fire redeem API — freefire redeem and شحن فري فاير | Zad Top</title>
+  <meta name="description" content="Free Fire redeem and freefire redeem API for Garena diamonds. Send a player ID and codes from the Zad Top Telegram bot or HTTP API. Packs 100 to 2,200."/>
+  <meta name="keywords" content="freefire redeem, free fire redeem, free fire redeem api, freefire redeem bot, garena free fire redeem, free fire diamond redeem, شحن فري فاير, بوت شحن فري فاير, ZadTopBot"/>
+  <meta name="robots" content="index,follow,max-image-preview:large"/>
+  <link rel="canonical" href="https://aliothman123.github.io/zadtop-api/freefire-redeem.html"/>
+  <link rel="alternate" hreflang="en" href="https://aliothman123.github.io/zadtop-api/freefire-redeem.html"/>
+  <link rel="alternate" hreflang="ar" href="https://aliothman123.github.io/zadtop-api/ar.html"/>
+  <link rel="alternate" hreflang="x-default" href="https://aliothman123.github.io/zadtop-api/freefire-redeem.html"/>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Zad Top API"/>
+  <meta property="og:title" content="Free Fire redeem API — freefire redeem and شحن فري فاير | Zad Top"/>
+  <meta property="og:description" content="Free Fire redeem and freefire redeem API for Garena diamonds. Send a player ID and codes from the Zad Top Telegram bot or HTTP API. Packs 100 to 2,200."/>
+  <meta property="og:url" content="https://aliothman123.github.io/zadtop-api/freefire-redeem.html"/>
+  <meta property="og:image" content="https://aliothman123.github.io/zadtop-api/assets/img/zadtop-games.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Free Fire redeem — Zad Top"/>
+  <meta name="twitter:description" content="Free Fire redeem and freefire redeem API for Garena diamonds. Send a player ID and codes from the Zad Top Telegram bot or HTTP API. Packs 100 to 2,200."/>
+  <meta name="twitter:image" content="https://aliothman123.github.io/zadtop-api/assets/img/zadtop-games.jpg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Free Fire redeem API — freefire redeem and شحن فري فاير | Zad Top", "description": "Free Fire redeem and freefire redeem API for Garena diamonds. Send a player ID and codes from the Zad Top Telegram bot or HTTP API. Packs 100 to 2,200.", "url": "https://aliothman123.github.io/zadtop-api/freefire-redeem.html", "inLanguage": "en", "isPartOf": {"@type": "WebSite", "name": "Zad Top API", "url": "https://aliothman123.github.io/zadtop-api/"}, "about": {"@type": "Service", "name": "Free Fire redeem", "provider": {"@type": "Organization", "name": "Zad Top", "url": "https://www.zadtop.com/"}, "serviceType": "Free Fire redeem"}}</script>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a class="brand" href="./"><img src="./assets/img/logo.png" alt="" width="36" height="36"/> Zad Top</a>
+    <nav class="nav"><a href="./">Hub</a><a href="./services.html" aria-current="page">Services</a><a href="./games.html">Games</a><a href="./recipes.html">Recipes</a><a href="./bot.html">Telegram bot</a><a href="./ar.html">العربية</a><a href="https://github.com/aliothman123/zadtop-api">GitHub</a></nav>
+  </div></header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Free Fire redeem</h1>
+      <p class="lead">freefire redeem sends Garena diamond vouchers to a player ID. The same redeem runs in the Telegram bot @ZadTopBot and on the HTTP API at api.zadtop.com.</p>
+      <div class="cta">
+        <a class="btn" href="https://t.me/ZadTopBot">Open @ZadTopBot</a>
+        <a class="btn ghost" href="https://api.zadtop.com/docs">API reference</a>
+      </div>
+    </section>
+    
+    <section>
+      <h2>شحن فري فاير</h2>
+      <p>شحن فري فاير يتم على آيدي اللاعب. الفئات: 100 و210 و530 و1080 و2200 ماسة. البوت يؤكد اسم اللاعب قبل إرسال الأكواد، ثم يعرض نتيجة كل كود وحده. الحقل في الواجهة <code>game=freefire</code>.</p>
+      <h2>What a Free Fire redeem includes</h2>
+      <p>Packs are 100, 210, 530, 1,080 and 2,200 diamonds. One redeem costs one request per code. A new account starts with 10 free redeems. Plans run from 25 to 10,000 redeems a day, priced from 5 USDT for one game.</p>
+      <p>You can redeem codes you paste, or redeem a pack you already stored in the bot. After a successful order you can download the shop confirmation image.</p>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/jobs/instant-redeem \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"player_id":"2186053213","codes":["4233939008625064"],"game":"freefire"}'</pre>
+      <p>The call returns a job. Read it with <code>GET /v1/jobs/{id}</code> or add <code>?wait=25</code>. A finished job still lists each code on its own, with <code>success</code> and <code>err_code</code>.</p>
+      <p>Related: <a href="./freefire-checker.html">Free Fire checker</a> · <a href="./ar.html">الصفحة العربية</a></p>
+    </section>
+    <h2>Also searched as</h2><p class="pills"><span>freefire redeem</span><span>free fire redeem</span><span>free fire redeem api</span><span>garena free fire redeem</span><span>شحن فري فاير</span><span>بوت شحن فري فاير</span></p>
+  </main>
+  <footer><div class="wrap">
+    <p>Zad Top is an independent service. It is not affiliated with Garena, Krafton, Tencent, Yalla Games, Apple, Razer, or Jawaker.</p>
+    <p><a href="./services.html">All services</a> · <a href="./ar.html">بالعربية</a> · <a href="https://www.zadtop.com/">zadtop.com</a> · <a href="https://t.me/ZadTop_support">Support</a></p>
+  </div></footer>
+</body>
+</html>

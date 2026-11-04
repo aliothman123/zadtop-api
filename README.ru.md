@@ -10,4 +10,4 @@
 
 Проверка PIN Razer Gold его не тратит: 5 запросов за PIN. Пополнение своего кошелька не сохраняет пароль. Код золота Ludo нельзя отправлять в проверку алмазов: он может быть потрачен.
 
-Поиск: бот активации Free Fire, API UC PUBG, алмазы Yalla Ludo, жетоны Jawaker, баланс iTunes, PIN Razer Gold, ZadTopBot.
+Поиск: freefire redeem, free fire checker, фри фаер, pubg uc redeem, пабг юс, razer gold redeem, razer gold checker, itunes checker, apple checker, проверка itunes, yalla ludo, jawaker, ZadTopBot.

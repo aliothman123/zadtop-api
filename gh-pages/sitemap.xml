@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aliothman123.github.io/zadtop-api/</loc></url>
-  <url><loc>https://aliothman123.github.io/zadtop-api/games.html</loc></url>
-  <url><loc>https://aliothman123.github.io/zadtop-api/recipes.html</loc></url>
-  <url><loc>https://aliothman123.github.io/zadtop-api/bot.html</loc></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/services.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/games.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/recipes.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/bot.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/ar.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/freefire-redeem.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/freefire-checker.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/pubg-uc-redeem.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/pubg-uc-checker.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/razer-gold.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/itunes-checker.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/yalla-ludo.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/jawaker.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/player-lookup.html</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://aliothman123.github.io/zadtop-api/stock-redeem.html</loc><lastmod>2026-11-05</lastmod></url>
 </urlset>

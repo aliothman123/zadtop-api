@@ -49,4 +49,18 @@
 
 الباقات من 25 إلى 10,000 عملية في اليوم لمدة 30 يومًا. السعر المعروض للعبة واحدة. لعبتان ×1.3، وكل الألعاب ×1.5. الدفع بـ USDT على TRC20 أو BEP20 أو TON أو Aptos.
 
-كلمات البحث: بوت شحن فري فاير، فاحص أكواد فري فاير، شحن شدات ببجي، فحص كود ببجي، شحن يلا لودو، توكنز جواكر، فحص بطاقة آيتونز، فحص كود ريزر جولد، شحن ريزر جولد، ZadTopBot.
+## كلمات البحث
+
+| ما يُكتب في البحث | الصفحة |
+| --- | --- |
+| فري فاير تشيكر، فحص كود فري فاير، فاحص فري فاير | [فاحص فري فاير](./docs/freefire-checker.md) |
+| شحن فري فاير، freefire redeem، بوت شحن فري فاير | [شحن فري فاير](./docs/freefire-redeem.md) |
+| شحن شدات ببجي، شحن ببجي، pubg uc redeem | [شحن ببجي](./docs/pubg-uc-redeem.md) |
+| فحص كود ببجي، pubg uc checker | [فحص ببجي](./docs/pubg-uc-checker.md) |
+| ريزر جولد، شحن ريزر، razer gold redeem، ريزر تشيكر، فحص كود ريزر | [ريزر جولد](./docs/razer-gold.md) |
+| ايتونز تشيكر، آيتونز تشيكر، فحص بطاقة ايتونز، itunes checker | [آيتونز](./docs/itunes-checker.md) |
+| ابل تشيكر، آبل تشيكر، فحص بطاقة آبل، apple checker | [آبل](./docs/itunes-checker.md) |
+| شحن يلا لودو، شحن لودو، yalla ludo redeem | [يلا لودو](./docs/yalla-ludo.md) |
+| شحن جواكر، jawaker redeem | [جواكر](./docs/jawaker.md) |
+
+الصفحة العربية الجامعة: https://aliothman123.github.io/zadtop-api/ar.html

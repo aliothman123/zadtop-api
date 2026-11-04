@@ -10,4 +10,4 @@
 
 ریزر گولڈ پن چیک پن خرچ نہیں کرتا، فی پن ۵ ریکویسٹ۔ اپنے والیٹ میں چارج پر پاس ورڈ محفوظ نہیں ہوتا۔ لوڈو گولڈ کوڈ ڈائمنڈ چیک پر نہ بھیجیں؛ خرچ ہو سکتا ہے۔
 
-تلاش: فری فائر ریڈیم بوٹ، پبجی UC API، یالا لوڈو ڈائمنڈ، جواکر ٹوکن، آئی ٹیونز بیلنس، ریزر گولڈ پن، ZadTopBot۔
+تلاش: freefire redeem، free fire checker، فری فائر چیکر، pubg uc redeem، پبجی یوسی، razer gold redeem، razer gold checker، itunes checker، apple checker، آئی ٹیونز، ایپل چیکر، yalla ludo، jawaker، ZadTopBot۔

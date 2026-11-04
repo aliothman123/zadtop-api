@@ -18,4 +18,4 @@ Kod yükleme, kod kontrolü, oyuncu adı ve stok. Garena, Krafton, Yalla, Apple,
 | `razer` | PIN kontrolü, PIN harcanmaz, PIN başına 5 istek |
 | `razer_recharge` | PIN kendi cüzdanınıza. Şifre saklanmaz. Sonuç alan PIN başına 5 istek |
 
-Arama: Free Fire kod yükleme, PUBG UC API, Yalla Ludo elmas, Jawaker jeton, iTunes bakiye, Razer Gold PIN, ZadTopBot.
+Arama: freefire redeem, free fire checker, pubg uc redeem, pubg uc checker, razer gold redeem, razer gold checker, itunes checker, apple checker, yalla ludo redeem, jawaker redeem, Free Fire kod yükleme, PUBG UC yükleme, iTunes bakiye sorgulama, Razer Gold PIN, ZadTopBot.
