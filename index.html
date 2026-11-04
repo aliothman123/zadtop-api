@@ -91,7 +91,7 @@
     <section class="hero wrap">
       <p class="pills"><span>Free Fire</span><span>PUBG Mobile</span><span>Yalla Ludo</span><span>Jawaker</span><span>iTunes</span><span>Razer Gold</span></p>
       <h1>One bot. Six games. One HTTP API.</h1>
-      <p class="lead">Zad Top is the Telegram bot <a href="https://t.me/ZadTopBot">@ZadTopBot</a> and the HTTP API at <a href="https://api.zadtop.com">api.zadtop.com</a>. Redeem codes, check them before you spend them, look up a player, and keep your own stock.</p>
+      <p class="lead">Zad Top is the Telegram bot <a href="https://t.me/ZadTopBot">@ZadTopBot</a> and the HTTP API at <a href="https://api.zadtop.com">api.zadtop.com</a>. Redeem Free Fire, PUBG Mobile, Yalla Ludo and Jawaker codes. Read iTunes (Apple Gift Card) balances. Check Razer Gold PINs without spending them, or credit them to your own Razer Gold wallet.</p>
       <div class="cta">
         <a class="btn" href="https://t.me/ZadTopBot">Open the bot</a>
         <a class="btn ghost" href="https://api.zadtop.com/docs">API reference</a>
@@ -138,6 +138,24 @@
         <tr><td>Support</td><td><a href="https://t.me/ZadTop_support">@ZadTop_support</a></td></tr>
         <tr><td>This repository</td><td><a href="https://github.com/aliothman123/zadtop-api">github.com/aliothman123/zadtop-api</a></td></tr>
       </table>
+    </section>
+
+    <section class="wrap">
+      <h2>Every service at a glance</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Service</th><th>What it does</th><th>Results</th><th>Cost</th><th><code>game</code></th></tr>
+        <tr><td><a href="./freefire-redeem.html">Free Fire redeem</a></td><td>Garena diamond vouchers to a player ID. Packs 100, 210, 530, 1,080, 2,200</td><td>success, used, invalid, region</td><td>1 per code</td><td><code>freefire</code></td></tr>
+        <tr><td><a href="./freefire-checker.html">Free Fire checker</a></td><td>Reads a card without redeeming it, with its pack</td><td>unused, used, invalid</td><td>1 per card</td><td><code>freefire</code></td></tr>
+        <tr><td><a href="./pubg-uc-redeem.html">PUBG UC redeem</a></td><td>UC vouchers to a player ID. Packs 60 to 8,100 UC</td><td>success, used, invalid</td><td>1 per code</td><td><code>pubg</code></td></tr>
+        <tr><td><a href="./pubg-uc-checker.html">PUBG UC checker</a></td><td>Reads a card, with its value and time of use when the shop knows them</td><td>unused, used, expired, invalid</td><td>1 per card</td><td><code>pubg</code></td></tr>
+        <tr><td><a href="./yalla-ludo.html">Yalla Ludo</a></td><td>Diamonds and Gold, $2 to $500. Diamonds can be checked; Gold cannot</td><td>success, used, invalid</td><td>1 per code</td><td><code>ludo</code> · <code>ludogold</code></td></tr>
+        <tr><td><a href="./jawaker.html">Jawaker</a></td><td>Tokens 4,250 to 825,000 by player number. No standalone check</td><td>success, used, invalid</td><td>1 per code</td><td><code>jawaker</code></td></tr>
+        <tr><td><a href="./itunes-checker.html">iTunes checker</a></td><td>Apple Gift Card balance in dollars, without redeeming. Card is 16 characters starting with X</td><td>valid with balance, used, invalid</td><td>1 per card</td><td><code>itunes</code></td></tr>
+        <tr><td><a href="./razer-gold.html">Razer Gold checker</a></td><td>Whether a PIN is live. The PIN is not spent</td><td>valid, used, invalid</td><td>5 per PIN</td><td><code>razer</code></td></tr>
+        <tr><td><a href="./razer-gold.html">Razer Gold redeem</a></td><td>Credits PINs to your own wallet. Email and password sign in; the password is not stored. A closed, inactive or full wallet is refused before any PIN is sent</td><td>recharged with amount, used, invalid, wallet full</td><td>5 per PIN with a verdict</td><td><code>razer_recharge</code></td></tr>
+        <tr><td><a href="./player-lookup.html">Player lookup</a></td><td>In-game name and region before you spend a code</td><td>name, region</td><td>0.25</td><td>per game</td></tr>
+      </table></div>
+      <p class="muted">A shop refusal is a real answer and is charged. A failure before any result is returned to your allowance. A full Razer wallet is not charged.</p>
     </section>
 
     <section class="wrap">

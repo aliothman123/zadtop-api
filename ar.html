@@ -36,9 +36,26 @@
       <h1>خدمات زاد توب كما تُكتب في البحث</h1>
       <p class="lead">كل خدمة باسمها الذي يكتبه الناس: فري فاير تشيكر، شحن فري فاير، ايتونز تشيكر، ابل تشيكر، ريزر جولد، شدات ببجي، يلا لودو، وجواكر.</p>
       <div class="cta">
-        <a class="btn" href="https://t.me/ZadTopBot">Open @ZadTopBot</a>
-        <a class="btn ghost" href="https://api.zadtop.com/docs">API reference</a>
+        <a class="btn" href="https://t.me/ZadTopBot">افتح @ZadTopBot</a>
+        <a class="btn ghost" href="https://api.zadtop.com/docs">توثيق الواجهة</a>
       </div>
+    </section>
+    <section>
+      <h2>كل الخدمات بالتفصيل</h2>
+      <div class="table-wrap"><table>
+        <tr><th>الخدمة</th><th>ماذا تفعل</th><th>النتائج</th><th>التكلفة</th><th><code>game</code></th></tr>
+        <tr><td><a href="./freefire-redeem.html">شحن فري فاير</a></td><td>قسائم جواهر غارينا على آيدي اللاعب. الفئات 100 و210 و530 و1080 و2200</td><td>نجاح، مستخدم، غير صالح، منطقة غير مطابقة</td><td>طلب لكل كود</td><td><code>freefire</code></td></tr>
+        <tr><td><a href="./freefire-checker.html">فري فاير تشيكر</a></td><td>يقرأ الكود دون شحنه، مع فئته</td><td>غير مستخدم، مستخدم، غير صالح</td><td>طلب لكل كود</td><td><code>freefire</code></td></tr>
+        <tr><td><a href="./pubg-uc-redeem.html">شحن شدات ببجي</a></td><td>أكواد الشدات على آيدي اللاعب. من 60 إلى 8100 شدة</td><td>نجاح، مستخدم، غير صالح</td><td>طلب لكل كود</td><td><code>pubg</code></td></tr>
+        <tr><td><a href="./pubg-uc-checker.html">فحص كود ببجي</a></td><td>يقرأ الكود مع قيمته ووقت استخدامه حين يعرفهما المتجر</td><td>غير مستخدم، مستخدم، منتهٍ، غير صالح</td><td>طلب لكل كود</td><td><code>pubg</code></td></tr>
+        <tr><td><a href="./yalla-ludo.html">يلا لودو</a></td><td>الماس والذهب من 2 إلى 500 دولار. الماس يُفحص، والذهب لا</td><td>نجاح، مستخدم، غير صالح</td><td>طلب لكل كود</td><td><code>ludo</code> · <code>ludogold</code></td></tr>
+        <tr><td><a href="./jawaker.html">جواكر</a></td><td>توكنز من 4250 إلى 825000 على رقم اللاعب. لا فحص مستقل</td><td>نجاح، مستخدم، غير صالح</td><td>طلب لكل كود</td><td><code>jawaker</code></td></tr>
+        <tr><td><a href="./itunes-checker.html">ايتونز تشيكر · ابل تشيكر</a></td><td>رصيد بطاقة آبل بالدولار دون شحنها. البطاقة 16 خانة تبدأ بحرف X</td><td>صالحة مع الرصيد، مستخدمة، غير صالحة</td><td>طلب لكل بطاقة</td><td><code>itunes</code></td></tr>
+        <tr><td><a href="./razer-gold.html">فحص كود ريزر جولد</a></td><td>يعرف إن كان الكود صالحاً. الكود لا يُستهلك</td><td>صالح، مستخدم، خاطئ</td><td>5 طلبات لكل كود</td><td><code>razer</code></td></tr>
+        <tr><td><a href="./razer-gold.html">شحن ريزر جولد</a></td><td>يشحن الأكواد إلى محفظتك. البريد وكلمة السر لتسجيل الدخول، وكلمة السر لا تُحفظ. المحفظة المغلقة أو غير المفعّلة أو الممتلئة تُرفض قبل إرسال أي كود</td><td>تم الشحن مع القيمة، مستخدم، خاطئ، المحفظة ممتلئة</td><td>5 طلبات لكل كود صدرت له نتيجة</td><td><code>razer_recharge</code></td></tr>
+        <tr><td><a href="./player-lookup.html">اسم اللاعب</a></td><td>الاسم والمنطقة قبل صرف أي كود</td><td>الاسم، المنطقة</td><td>0.25</td><td>حسب اللعبة</td></tr>
+      </table></div>
+      <p class="muted">رفض المتجر نتيجة فعلية ويُحسب. وما يفشل قبل صدور نتيجة يُعاد إلى حدّك. المحفظة الممتلئة في ريزر لا يُخصم عليها شيء.</p>
     </section>
     
     <section>
