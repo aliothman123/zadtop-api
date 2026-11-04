@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Zad Top API recipes — redeem, check, lookup, Razer Gold</title>
+  <meta name="description" content="Copy-paste HTTP examples for the Zad Top API: instant redeem, code check, player lookup, iTunes balance, and Razer Gold PIN check and recharge."/>
+  <meta name="keywords" content="Zad Top API example, Free Fire redeem curl, PUBG code check API, Razer Gold PIN API, iTunes balance API, player lookup API"/>
+  <meta name="robots" content="index,follow"/>
+  <link rel="canonical" href="https://aliothman123.github.io/zadtop-api/recipes.html"/>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"/>
+  <meta property="og:title" content="Zad Top API recipes"/>
+  <meta property="og:description" content="curl examples for redeem, check, lookup, iTunes and Razer Gold."/>
+  <meta property="og:image" content="https://aliothman123.github.io/zadtop-api/assets/img/zadtop-redeem-api.jpg"/>
+  <meta property="og:url" content="https://aliothman123.github.io/zadtop-api/recipes.html"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a class="brand" href="./"><img src="./assets/img/logo.png" alt="" width="36" height="36"/> Zad Top</a>
+    <nav class="nav"><a href="./">Hub</a><a href="./games.html">Games</a><a href="./recipes.html" aria-current="page">Recipes</a><a href="./bot.html">Telegram bot</a><a href="https://github.com/aliothman123/zadtop-api">GitHub</a></nav>
+  </div></header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Recipes</h1>
+      <p class="lead">Every call uses <code>X-API-Key</code>. Replace the sample player IDs and codes. The full field list is in the <a href="https://api.zadtop.com/docs">reference</a>.</p>
+    </section>
+    <section>
+      <h2>Redeem Free Fire</h2>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/jobs/instant-redeem \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"player_id":"2186053213","codes":["4233939008625064"],"game":"freefire"}'</pre>
+      <h2>Check PUBG cards</h2>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/codes/check \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"game":"pubg","with_value":true,"codes":["YOURCODE"]}'</pre>
+      <h2>Look up a player</h2>
+      <pre>curl -sS "https://api.zadtop.com/v1/player/lookup?game=freefire&amp;player_id=2186053213" \
+  -H "X-API-Key: pk_YOUR_KEY"</pre>
+      <h2>Yalla Ludo, with a pack</h2>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/jobs/instant-redeem \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"game":"ludo","player_id":"12345678","tier":2,"codes":["YOURCODE"]}'</pre>
+      <h2>iTunes balance</h2>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/codes/check \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"game":"itunes","codes":["X000000000000000"]}'</pre>
+      <h2>Razer Gold PIN check</h2>
+      <p class="muted">Five requests per PIN. The PIN is not spent.</p>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/codes/check \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"game":"razer","codes":["YOURPIN"]}'</pre>
+      <h2>Razer Gold recharge</h2>
+      <p class="muted">The password signs the wallet in and is not stored. Five requests for each PIN that got a verdict.</p>
+      <pre>curl -sS -X POST https://api.zadtop.com/v1/codes/check \
+  -H "X-API-Key: pk_YOUR_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"game":"razer_recharge","email":"name@mail.com","password":"secret","codes":["YOURPIN"]}'</pre>
+      <h2>Wait for the job</h2>
+      <pre>curl -sS "https://api.zadtop.com/v1/jobs/JOB_ID?wait=25" \
+  -H "X-API-Key: pk_YOUR_KEY"</pre>
+    </section>
+    <section>
+      <h2>What a failed card can say</h2>
+      <table>
+        <tr><th>err_code</th><th>Meaning</th></tr>
+        <tr><td><code>CODE_ALREADY_USED</code></td><td>Already redeemed. Do not retry it.</td></tr>
+        <tr><td><code>INVALID_CODE</code></td><td>The shop does not recognise the card.</td></tr>
+        <tr><td><code>REGION_MISMATCH</code></td><td>Wrong region for this player.</td></tr>
+        <tr><td><code>PLAYER_NOT_FOUND</code></td><td>No account with this ID. The cards were not used.</td></tr>
+        <tr><td><code>NETWORK</code></td><td>The connection dropped, the shop refused the request, or no result came back. Refunded. Retry.</td></tr>
+        <tr><td><code>VERIFICATION</code> · <code>VERIFICATION_FAILED</code></td><td>Verification did not pass. The card was not spent. Retry later.</td></tr>
+      </table>
+    </section>
+  </main>
+  <footer><div class="wrap"><p>A shop refusal is an answer and stays charged. A failure before a result is returned to your allowance.</p></div></footer>
+</body>
+</html>

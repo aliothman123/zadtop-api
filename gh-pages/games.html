@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Zad Top games — Free Fire, PUBG UC, Yalla Ludo, Jawaker, iTunes, Razer Gold</title>
+  <meta name="description" content="What Zad Top redeems and checks: Free Fire diamonds, PUBG Mobile UC, Yalla Ludo Diamonds and Gold, Jawaker tokens, Apple gift-card balances, and Razer Gold PINs."/>
+  <meta name="keywords" content="Free Fire diamond redeem, PUBG UC packs, Yalla Ludo diamonds, Yalla Ludo gold, Jawaker tokens, iTunes gift card checker, Razer Gold PIN check, Razer Gold wallet recharge"/>
+  <meta name="robots" content="index,follow,max-image-preview:large"/>
+  <link rel="canonical" href="https://aliothman123.github.io/zadtop-api/games.html"/>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"/>
+  <meta property="og:title" content="Games on Zad Top"/>
+  <meta property="og:description" content="Redeem and check Free Fire, PUBG, Yalla Ludo, Jawaker, iTunes and Razer Gold."/>
+  <meta property="og:image" content="https://aliothman123.github.io/zadtop-api/assets/img/zadtop-games.jpg"/>
+  <meta property="og:url" content="https://aliothman123.github.io/zadtop-api/games.html"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a class="brand" href="./"><img src="./assets/img/logo.png" alt="" width="36" height="36"/> Zad Top</a>
+    <nav class="nav"><a href="./">Hub</a><a href="./games.html" aria-current="page">Games</a><a href="./recipes.html">Recipes</a><a href="./bot.html">Telegram bot</a><a href="https://github.com/aliothman123/zadtop-api">GitHub</a></nav>
+  </div></header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Every game on one plan.</h1>
+      <p class="lead">Change the <code>game</code> field. The routes stay the same. A plan can cover one game, two, or all of them.</p>
+      <figure class="shot"><img src="./assets/img/zadtop-games.jpg" alt="Free Fire, PUBG Mobile, Yalla Ludo, Jawaker, iTunes and Razer Gold on Zad Top"/></figure>
+    </section>
+    <section>
+      <article class="card"><h2>Free Fire</h2><p>Redeem Garena vouchers onto a player ID. Packs: 100, 210, 530, 1,080 and 2,200 diamonds. Check a card first: unused, used, or invalid, with the pack it is worth. <code>game=freefire</code>.</p></article>
+      <article class="card"><h2>PUBG Mobile</h2><p>Redeem UC by player ID. Packs from 60 to 8,100 UC. A check can also return the value, when the card was used, and the player, when the shop knows them. <code>game=pubg</code>.</p></article>
+      <article class="card"><h2>Yalla Ludo</h2><p>Diamonds and Gold, from $2 to $500. After the player ID you choose the pack. Diamonds codes can be checked: unused, used, or invalid. Gold has no check. Never send a Gold code to the Diamonds check — it can be spent. Use <code>game=ludo</code> or <code>game=ludogold</code> with <code>tier</code>.</p></article>
+      <article class="card"><h2>Jawaker</h2><p>Token packs from 4,250 to 825,000, redeemed by player number. There is no standalone code check. A 12-character pin cannot be checked, and a code is not sent a second time if the answer is lost. <code>game=jawaker</code>.</p></article>
+      <article class="card"><h2>iTunes</h2><p>Read an Apple Gift Card balance in dollars without redeeming it. A live card comes back valid with its balance. Apple does not separate an invalid card from one already redeemed, so both read as invalid. Check only: no player, no packs. The first read after a quiet spell can take up to a minute. <code>game=itunes</code>.</p></article>
+      <article class="card"><h2>Razer Gold check</h2><p>Find out whether a PIN is live, used, or invalid. The PIN is not spent by checking. No player ID and no pack. Each read costs 5 requests. <code>game=razer</code>.</p></article>
+      <article class="card"><h2>Razer Gold recharge</h2><p>Credit PINs to your own wallet. Send the email and password with the codes. The password is used to sign in and is not saved. A closed wallet, a wallet that is not activated yet, or a full wallet is refused before a PIN is sent. A credited PIN comes back recharged, with the amount when Razer reports it. Each PIN that got a verdict costs 5 requests. <code>game=razer_recharge</code>.</p></article>
+    </section>
+  </main>
+  <footer><div class="wrap"><p>Prices, packs and examples also live on <a href="https://www.zadtop.com/games/">zadtop.com/games</a> and in the <a href="https://api.zadtop.com/docs">API reference</a>.</p></div></footer>
+</body>
+</html>
