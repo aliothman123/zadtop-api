@@ -6,6 +6,8 @@
 
 [English](./README.md) · [दस्तावेज़](https://api.zadtop.com/docs) · [साइट](https://www.zadtop.com/)
 
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
+
 हेडर `X-API-Key`। सक्रिय प्लान और API ऐड-ऑन (15 USDT / 30 दिन)।
 
 Razer Gold PIN जाँच PIN खर्च नहीं करती; हर PIN पर 5 रिक्वेस्ट। अपने वॉलेट में रिचार्ज पासवर्ड सेव नहीं करता। Ludo गोल्ड कोड को डायमंड जाँच पर न भेजें; वह खर्च हो सकता है।

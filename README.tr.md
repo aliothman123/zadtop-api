@@ -6,6 +6,8 @@ Kod yükleme, kod kontrolü, oyuncu adı ve stok. Garena, Krafton, Yalla, Apple,
 
 [English](./README.md) · [Belgeler](https://api.zadtop.com/docs) · [Site](https://www.zadtop.com/) · [Sayfalar](https://aliothman123.github.io/zadtop-api/)
 
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
+
 `X-API-Key` başlığı gerekir. Aktif plan + HTTP API eklentisi (30 gün / 15 USDT).
 
 | `game` | |

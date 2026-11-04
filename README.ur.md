@@ -6,6 +6,8 @@
 
 [English](./README.md) · [دستاویزات](https://api.zadtop.com/docs) · [سائٹ](https://www.zadtop.com/)
 
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
+
 ہیڈر `X-API-Key`۔ فعال پلان اور API ایڈ آن (۱۵ ڈالر / ۳۰ دن)۔
 
 ریزر گولڈ پن چیک پن خرچ نہیں کرتا، فی پن ۵ ریکویسٹ۔ اپنے والیٹ میں چارج پر پاس ورڈ محفوظ نہیں ہوتا۔ لوڈو گولڈ کوڈ ڈائمنڈ چیک پر نہ بھیجیں؛ خرچ ہو سکتا ہے۔

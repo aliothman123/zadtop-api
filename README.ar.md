@@ -5,6 +5,8 @@
 
 [البوت @ZadTopBot](https://t.me/ZadTopBot) · [الوثائق](https://api.zadtop.com/docs) · [Swagger](https://api.zadtop.com/swagger) · [الموقع](https://www.zadtop.com/) · [English](./README.md)
 
+[![ضع نجمة لمشروع زاد توب](./docs/images/star-zadtop-ar.jpg)](https://github.com/aliothman123/zadtop-api)
+
 ![غلاف زاد توب](./docs/images/zadtop-api-cover.jpg)
 
 هذا المستودع **واجهة عامة للمطورين**. لا يحتوي على برنامج البوت.

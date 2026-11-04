@@ -6,6 +6,8 @@
 
 [English](./README.md) · [Документация](https://api.zadtop.com/docs) · [Сайт](https://www.zadtop.com/) · [Страницы](https://aliothman123.github.io/zadtop-api/)
 
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
+
 Заголовок `X-API-Key`. Нужен активный план и дополнение HTTP API (15 USDT / 30 дней).
 
 Проверка PIN Razer Gold его не тратит: 5 запросов за PIN. Пополнение своего кошелька не сохраняет пароль. Код золота Ludo нельзя отправлять в проверку алмазов: он может быть потрачен.

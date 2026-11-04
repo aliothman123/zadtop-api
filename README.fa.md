@@ -6,6 +6,8 @@
 
 [English](./README.md) · [مستندات](https://api.zadtop.com/docs) · [سایت](https://www.zadtop.com/)
 
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
+
 کلید در سربرگ `X-API-Key`. طرح فعال به‌علاوهٔ افزونهٔ API (۱۵ دلار / ۳۰ روز).
 
 بررسی پین ریزر گلد کد را مصرف نمی‌کند و هر پین ۵ درخواست است. شارژ به کیف خودتان رمز را ذخیره نمی‌کند. کد طلای لودو را به بررسی الماس نفرستید؛ ممکن است مصرف شود.

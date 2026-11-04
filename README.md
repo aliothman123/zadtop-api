@@ -7,6 +7,9 @@
 [![Docs](https://img.shields.io/badge/API%20docs-api.zadtop.com-e7c56a?style=flat)](https://api.zadtop.com/docs)
 [![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=flat)](https://api.zadtop.com/swagger)
 [![Website](https://img.shields.io/badge/Website-zadtop.com-2f6f54?style=flat)](https://www.zadtop.com/)
+[![Star this project](https://img.shields.io/github/stars/aliothman123/zadtop-api?style=for-the-badge&logo=github&label=Star%20this%20project&color=e7c56a)](https://github.com/aliothman123/zadtop-api)
+
+[![Star Zad Top on GitHub](./docs/images/star-zadtop.jpg)](https://github.com/aliothman123/zadtop-api)
 
 **Languages:** [English](./README.md) · [العربية](./README.ar.md) · [Türkçe](./README.tr.md) · [فارسی](./README.fa.md) · [اردو](./README.ur.md) · [हिन्दी](./README.hi.md) · [Русский](./README.ru.md) · [中文](./README.zh-CN.md)
 
@@ -18,14 +21,14 @@ This repository is the **public developer hub**. It does not contain the bot pro
 
 | Search | Service |
 | --- | --- |
-| freefire redeem, free fire redeem, شحن فري فاير | [Free Fire redeem](./docs/freefire-redeem.md) |
-| فري فاير تشيكر, free fire checker, فحص كود فري فاير | [Free Fire checker](./docs/freefire-checker.md) |
-| pubg uc redeem, pubg redeem, شحن شدات ببجي | [PUBG UC redeem](./docs/pubg-uc-redeem.md) |
-| pubg uc checker, فحص كود ببجي | [PUBG UC checker](./docs/pubg-uc-checker.md) |
-| razer gold redeem, razer gold checker, شحن ريزر, ريزر تشيكر | [Razer Gold](./docs/razer-gold.md) |
-| itunes checker, apple checker, ايتونز تشيكر, ابل تشيكر | [iTunes and Apple checker](./docs/itunes-checker.md) |
-| yalla ludo redeem, شحن يلا لودو | [Yalla Ludo](./docs/yalla-ludo.md) |
-| jawaker redeem, شحن جواكر | [Jawaker](./docs/jawaker.md) |
+| freefire redeem, free fire top up, شحن فري فاير, شحن جواهر فري فاير, فريفاير | [Free Fire redeem](./docs/freefire-redeem.md) |
+| فري فاير تشيكر, فاحص فري فاير, free fire checker, فحص كود فري فاير | [Free Fire checker](./docs/freefire-checker.md) |
+| pubg uc redeem, pubg mobile top up, شحن شدات ببجي, شدات ببجي موبايل | [PUBG UC redeem](./docs/pubg-uc-redeem.md) |
+| pubg uc checker, uc checker, فحص كود ببجي, فحص شدات ببجي | [PUBG UC checker](./docs/pubg-uc-checker.md) |
+| razer gold redeem, razer gold pin, شحن كود ريزر, كود ريزر جولد, ريزر جولد تشيكر | [Razer Gold](./docs/razer-gold.md) |
+| itunes checker, itunes gift card balance, apple checker, فحص ايتونز, فحص بطاقة ابل, بطاقة ايتونز | [iTunes and Apple checker](./docs/itunes-checker.md) |
+| yalla ludo redeem, شحن يلا لودو, شحن الماس, شحن ذهب لودو | [Yalla Ludo](./docs/yalla-ludo.md) |
+| jawaker redeem, شحن جواكر, توكنز جواكر | [Jawaker](./docs/jawaker.md) |
 | player id lookup, فحص ايدي | [Player lookup](./docs/player-lookup.md) |
 | stock redeem, شحن من المخزون | [Stock](./docs/stock-redeem.md) |
 
@@ -48,7 +51,7 @@ Built for reseller panels, shops, and your own bot.
 
 ![Check a code before you spend it](./docs/images/zadtop-code-check.jpg)
 
-![Six games](./docs/images/zadtop-games.jpg)
+![Games and cards](./docs/images/zadtop-games.jpg)
 
 ---
 
