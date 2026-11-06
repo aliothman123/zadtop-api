@@ -1,6 +1,6 @@
-# iTunes checker
+# iTunes check
 
-An iTunes checker reads the dollar balance of an Apple Gift Card. It does not redeem the card. The same check is what people call an Apple checker, ايتونز تشيكر, and ابل تشيكر.
+An iTunes check reads the dollar balance of an Apple Gift Card. It does not redeem the card. The same check is what people call an iTunes checker, an Apple checker, ايتونز تشيكر, and ابل تشيكر.
 
 Bot: [@ZadTopBot](https://t.me/ZadTopBot) · API: https://api.zadtop.com · Page: https://aliothman123.github.io/zadtop-api/itunes-checker.html
 

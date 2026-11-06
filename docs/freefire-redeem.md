@@ -1,6 +1,6 @@
-# Free Fire redeem
+# Free Fire API
 
-freefire redeem sends Garena diamond vouchers to a player ID. The same redeem runs in the Telegram bot @ZadTopBot and on the HTTP API at api.zadtop.com.
+The Free Fire API sends Garena diamond vouchers to a player ID. The same redeem runs in the Telegram bot @ZadTopBot and on the HTTP API at api.zadtop.com.
 
 Bot: [@ZadTopBot](https://t.me/ZadTopBot) · API: https://api.zadtop.com · Page: https://aliothman123.github.io/zadtop-api/freefire-redeem.html
 

@@ -15,20 +15,20 @@
 
 ![Zad Top — Telegram redeem bot and HTTP API](./docs/images/zadtop-api-cover.jpg)
 
-This repository is the **public developer hub**. It does not contain the bot program. Live docs, the website, and the bot are linked above.
+This repository is the **public developer hub** for the **Free Fire API**, the **PUBG API**, **iTunes check**, the **Razer Gold checker**, the **Yalla Ludo API**, and the **Jawaker API**. It does not contain the bot program. Live docs, the website, and the bot are linked above.
 
 ## Services by the words people search
 
 | Search | Service |
 | --- | --- |
-| freefire redeem, free fire top up, شحن فري فاير, شحن جواهر فري فاير, فريفاير | [Free Fire redeem](./docs/freefire-redeem.md) |
-| فري فاير تشيكر, فاحص فري فاير, free fire checker, فحص كود فري فاير | [Free Fire checker](./docs/freefire-checker.md) |
-| pubg uc redeem, pubg mobile top up, شحن شدات ببجي, شدات ببجي موبايل | [PUBG UC redeem](./docs/pubg-uc-redeem.md) |
-| pubg uc checker, uc checker, فحص كود ببجي, فحص شدات ببجي | [PUBG UC checker](./docs/pubg-uc-checker.md) |
-| razer gold redeem, razer gold pin, شحن كود ريزر, كود ريزر جولد, ريزر جولد تشيكر | [Razer Gold](./docs/razer-gold.md) |
-| itunes checker, itunes gift card balance, apple checker, فحص ايتونز, فحص بطاقة ابل, بطاقة ايتونز | [iTunes and Apple checker](./docs/itunes-checker.md) |
-| yalla ludo redeem, شحن يلا لودو, شحن الماس, شحن ذهب لودو | [Yalla Ludo](./docs/yalla-ludo.md) |
-| jawaker redeem, شحن جواكر, توكنز جواكر | [Jawaker](./docs/jawaker.md) |
+| free fire api, freefire api, freefire redeem, free fire top up, شحن فري فاير, شحن جواهر فري فاير, فريفاير | [Free Fire API](./docs/freefire-redeem.md) |
+| free fire check, free fire checker, فري فاير تشيكر, فاحص فري فاير, فحص كود فري فاير | [Free Fire checker](./docs/freefire-checker.md) |
+| pubg api, pubg uc api, pubg mobile api, pubg uc redeem, pubg mobile top up, شحن شدات ببجي, شدات ببجي موبايل | [PUBG API](./docs/pubg-uc-redeem.md) |
+| pubg check, pubg uc checker, uc checker, فحص كود ببجي, فحص شدات ببجي | [PUBG UC checker](./docs/pubg-uc-checker.md) |
+| razer gold api, razer gold check, razer gold checker, razer gold pin, شحن كود ريزر, كود ريزر جولد, ريزر جولد تشيكر | [Razer Gold](./docs/razer-gold.md) |
+| itunes check, itunes checker, itunes gift card check, itunes gift card balance, apple check, apple checker, فحص ايتونز, فحص بطاقة ابل, بطاقة ايتونز | [iTunes check](./docs/itunes-checker.md) |
+| yalla ludo api, yalla ludo redeem, شحن يلا لودو, شحن الماس, شحن ذهب لودو | [Yalla Ludo API](./docs/yalla-ludo.md) |
+| jawaker api, jawaker redeem, شحن جواكر, توكنز جواكر | [Jawaker API](./docs/jawaker.md) |
 | player id lookup, فحص ايدي | [Player lookup](./docs/player-lookup.md) |
 | stock redeem, شحن من المخزون | [Stock](./docs/stock-redeem.md) |
 

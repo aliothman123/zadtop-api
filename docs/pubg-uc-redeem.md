@@ -1,6 +1,6 @@
-# PUBG UC redeem
+# PUBG API
 
-PUBG UC redeem credits Unknown Cash codes to a player ID. The same route covers Free Fire and the other games: only the game field changes.
+The PUBG API credits Unknown Cash codes to a player ID. The same route covers Free Fire and the other games: only the game field changes.
 
 Bot: [@ZadTopBot](https://t.me/ZadTopBot) · API: https://api.zadtop.com · Page: https://aliothman123.github.io/zadtop-api/pubg-uc-redeem.html
 
